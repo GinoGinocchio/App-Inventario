@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppInventario", "AppInventario.csproj", "{D6424ED4-4A16-418B-BBE7-A61DFA476E58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppInventario", "AppInventario.csproj", "{D6424ED4-4A16-418B-BBE7-A61DFA476E58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppInventario.AccesoDatos", "..\AppInventario.AccesoDatos\AppInventario.AccesoDatos.csproj", "{8A490BF8-ACBA-495D-AD93-E602480F5F0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppInventario.Modelos", "..\AppInventario.Modelos\AppInventario.Modelos.csproj", "{81F0F18F-EB9B-4C8A-B713-2DC01203A98E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppInventario.Utilidades", "..\AppInventario.Utilidades\AppInventario.Utilidades.csproj", "{9B259A1E-14FD-473B-9D77-BBB41134018A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{D6424ED4-4A16-418B-BBE7-A61DFA476E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6424ED4-4A16-418B-BBE7-A61DFA476E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6424ED4-4A16-418B-BBE7-A61DFA476E58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A490BF8-ACBA-495D-AD93-E602480F5F0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A490BF8-ACBA-495D-AD93-E602480F5F0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A490BF8-ACBA-495D-AD93-E602480F5F0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A490BF8-ACBA-495D-AD93-E602480F5F0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81F0F18F-EB9B-4C8A-B713-2DC01203A98E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81F0F18F-EB9B-4C8A-B713-2DC01203A98E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81F0F18F-EB9B-4C8A-B713-2DC01203A98E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81F0F18F-EB9B-4C8A-B713-2DC01203A98E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B259A1E-14FD-473B-9D77-BBB41134018A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B259A1E-14FD-473B-9D77-BBB41134018A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B259A1E-14FD-473B-9D77-BBB41134018A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B259A1E-14FD-473B-9D77-BBB41134018A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

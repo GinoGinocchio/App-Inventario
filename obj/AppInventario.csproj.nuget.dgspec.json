@@ -4,14 +4,149 @@
     "E:\\Proyectos\\AppInventario\\AppInventario.csproj": {}
   },
   "projects": {
-    "E:\\Proyectos\\AppInventario\\AppInventario.csproj": {
+    "E:\\Proyectos\\AppInventario.AccesoDatos\\AppInventario.AccesoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Proyectos\\AppInventario\\AppInventario.csproj",
-        "projectName": "AppInventario",
-        "projectPath": "E:\\Proyectos\\AppInventario\\AppInventario.csproj",
+        "projectUniqueName": "E:\\Proyectos\\AppInventario.AccesoDatos\\AppInventario.AccesoDatos.csproj",
+        "projectName": "AppInventario.AccesoDatos",
+        "projectPath": "E:\\Proyectos\\AppInventario.AccesoDatos\\AppInventario.AccesoDatos.csproj",
         "packagesPath": "C:\\Users\\alian\\.nuget\\packages\\",
-        "outputPath": "E:\\Proyectos\\AppInventario\\obj\\",
+        "outputPath": "E:\\Proyectos\\AppInventario.AccesoDatos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\Proyectos\\AppInventario.Modelos\\AppInventario.Modelos.csproj": {
+                "projectPath": "E:\\Proyectos\\AppInventario.Modelos\\AppInventario.Modelos.csproj"
+              },
+              "E:\\Proyectos\\AppInventario.Utilidades\\AppInventario.Utilidades.csproj": {
+                "projectPath": "E:\\Proyectos\\AppInventario.Utilidades\\AppInventario.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Proyectos\\AppInventario.Modelos\\AppInventario.Modelos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Proyectos\\AppInventario.Modelos\\AppInventario.Modelos.csproj",
+        "projectName": "AppInventario.Modelos",
+        "projectPath": "E:\\Proyectos\\AppInventario.Modelos\\AppInventario.Modelos.csproj",
+        "packagesPath": "C:\\Users\\alian\\.nuget\\packages\\",
+        "outputPath": "E:\\Proyectos\\AppInventario.Modelos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\Proyectos\\AppInventario.Utilidades\\AppInventario.Utilidades.csproj": {
+                "projectPath": "E:\\Proyectos\\AppInventario.Utilidades\\AppInventario.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Proyectos\\AppInventario.Utilidades\\AppInventario.Utilidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Proyectos\\AppInventario.Utilidades\\AppInventario.Utilidades.csproj",
+        "projectName": "AppInventario.Utilidades",
+        "projectPath": "E:\\Proyectos\\AppInventario.Utilidades\\AppInventario.Utilidades.csproj",
+        "packagesPath": "C:\\Users\\alian\\.nuget\\packages\\",
+        "outputPath": "E:\\Proyectos\\AppInventario.Utilidades\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alian\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +174,71 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Proyectos\\AppInventario\\AppInventario.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Proyectos\\AppInventario\\AppInventario.csproj",
+        "projectName": "AppInventario",
+        "projectPath": "E:\\Proyectos\\AppInventario\\AppInventario.csproj",
+        "packagesPath": "C:\\Users\\alian\\.nuget\\packages\\",
+        "outputPath": "E:\\Proyectos\\AppInventario\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\Proyectos\\AppInventario.AccesoDatos\\AppInventario.AccesoDatos.csproj": {
+                "projectPath": "E:\\Proyectos\\AppInventario.AccesoDatos\\AppInventario.AccesoDatos.csproj"
+              },
+              "E:\\Proyectos\\AppInventario.Modelos\\AppInventario.Modelos.csproj": {
+                "projectPath": "E:\\Proyectos\\AppInventario.Modelos\\AppInventario.Modelos.csproj"
+              },
+              "E:\\Proyectos\\AppInventario.Utilidades\\AppInventario.Utilidades.csproj": {
+                "projectPath": "E:\\Proyectos\\AppInventario.Utilidades\\AppInventario.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
@@ -52,6 +252,10 @@
               "target": "Package",
               "version": "[7.0.11, )"
             },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.11, )"
@@ -59,6 +263,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[7.0.11, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.9, )"
             }
           },
           "imports": [
