@@ -23,8 +23,4 @@
     <ProjectReference Include="..\AppInventario.Utilidades\AppInventario.Utilidades.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Areas\Admin\Controllers\" />
-  </ItemGroup>
-
 </Project>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CIWv8jMBVkoTU2T1IWedtoURpKAseSuG8ibTgzooqSI=",
+  "Hash": "Y05xlS1MmODpoqsI4rW1dOQ59BA2KsWterbVmjBVY+s=",
   "Source": "AppInventario",
   "BasePath": "_content/AppInventario",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "E:\\Proyectos\\AppInventario\\wwwroot\\js\\bodega.js",
+      "SourceId": "AppInventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Proyectos\\AppInventario\\wwwroot\\",
+      "BasePath": "_content/AppInventario",
+      "RelativePath": "js/bodega.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bodega.js"
     },
     {
       "Identity": "E:\\Proyectos\\AppInventario\\wwwroot\\js\\site.js",
