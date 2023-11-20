@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Y05xlS1MmODpoqsI4rW1dOQ59BA2KsWterbVmjBVY+s=",
+  "Hash": "Sq1JMKSao66olkgMQ6zOhALrON3Lg8HuUvNmPoHbq1Y=",
   "Source": "AppInventario",
   "BasePath": "_content/AppInventario",
   "Mode": "Default",
@@ -1120,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\bodega.js"
+    },
+    {
+      "Identity": "E:\\Proyectos\\AppInventario\\wwwroot\\js\\categoria.js",
+      "SourceId": "AppInventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Proyectos\\AppInventario\\wwwroot\\",
+      "BasePath": "_content/AppInventario",
+      "RelativePath": "js/categoria.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\categoria.js"
     },
     {
       "Identity": "E:\\Proyectos\\AppInventario\\wwwroot\\js\\site.js",

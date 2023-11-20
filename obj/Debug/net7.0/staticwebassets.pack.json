@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\js\\bodega.js"
     },
     {
+      "Id": "E:\\Proyectos\\AppInventario\\wwwroot\\js\\categoria.js",
+      "PackagePath": "staticwebassets\\js\\categoria.js"
+    },
+    {
       "Id": "E:\\Proyectos\\AppInventario\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
