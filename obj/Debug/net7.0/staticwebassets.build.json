@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Sq1JMKSao66olkgMQ6zOhALrON3Lg8HuUvNmPoHbq1Y=",
+  "Hash": "IYeiv6W6HLio7byAgki+K9fbtrnv8mhzdIk6tvyjZbg=",
   "Source": "AppInventario",
   "BasePath": "_content/AppInventario",
   "Mode": "Default",
@@ -1137,6 +1137,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\categoria.js"
+    },
+    {
+      "Identity": "E:\\Proyectos\\AppInventario\\wwwroot\\js\\marca.js",
+      "SourceId": "AppInventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Proyectos\\AppInventario\\wwwroot\\",
+      "BasePath": "_content/AppInventario",
+      "RelativePath": "js/marca.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\marca.js"
     },
     {
       "Identity": "E:\\Proyectos\\AppInventario\\wwwroot\\js\\site.js",
