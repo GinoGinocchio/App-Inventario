@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IYeiv6W6HLio7byAgki+K9fbtrnv8mhzdIk6tvyjZbg=",
+  "Hash": "MjqjTR7d+jK4l2aaco3D+rhL5GXS81unRfVkfqcwgZQ=",
   "Source": "AppInventario",
   "BasePath": "_content/AppInventario",
   "Mode": "Default",
@@ -1105,6 +1105,40 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "E:\\Proyectos\\AppInventario\\wwwroot\\imagenes\\producto\\27d7a214-13f7-437c-82c5-a646d5d095a7.jpg",
+      "SourceId": "AppInventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Proyectos\\AppInventario\\wwwroot\\",
+      "BasePath": "_content/AppInventario",
+      "RelativePath": "imagenes/producto/27d7a214-13f7-437c-82c5-a646d5d095a7.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\producto\\27d7a214-13f7-437c-82c5-a646d5d095a7.jpg"
+    },
+    {
+      "Identity": "E:\\Proyectos\\AppInventario\\wwwroot\\imagenes\\producto\\c152a965-02d1-4e64-9c20-9708b6c445fe.jpeg",
+      "SourceId": "AppInventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Proyectos\\AppInventario\\wwwroot\\",
+      "BasePath": "_content/AppInventario",
+      "RelativePath": "imagenes/producto/c152a965-02d1-4e64-9c20-9708b6c445fe.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\producto\\c152a965-02d1-4e64-9c20-9708b6c445fe.jpeg"
+    },
+    {
       "Identity": "E:\\Proyectos\\AppInventario\\wwwroot\\js\\bodega.js",
       "SourceId": "AppInventario",
       "SourceType": "Discovered",
@@ -1154,6 +1188,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\marca.js"
+    },
+    {
+      "Identity": "E:\\Proyectos\\AppInventario\\wwwroot\\js\\producto.js",
+      "SourceId": "AppInventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Proyectos\\AppInventario\\wwwroot\\",
+      "BasePath": "_content/AppInventario",
+      "RelativePath": "js/producto.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\producto.js"
     },
     {
       "Identity": "E:\\Proyectos\\AppInventario\\wwwroot\\js\\site.js",
