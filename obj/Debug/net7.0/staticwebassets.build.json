@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MjqjTR7d+jK4l2aaco3D+rhL5GXS81unRfVkfqcwgZQ=",
+  "Hash": "pW/9m4tBQ6uY2aW3aZQgfSLaOFGc3FN37WZFakwNzbU=",
   "Source": "AppInventario",
   "BasePath": "_content/AppInventario",
   "Mode": "Default",
@@ -1103,6 +1103,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "E:\\Proyectos\\AppInventario\\wwwroot\\imagenes\\icono.ico",
+      "SourceId": "AppInventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Proyectos\\AppInventario\\wwwroot\\",
+      "BasePath": "_content/AppInventario",
+      "RelativePath": "imagenes/icono.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\icono.ico"
+    },
+    {
+      "Identity": "E:\\Proyectos\\AppInventario\\wwwroot\\imagenes\\icono.png",
+      "SourceId": "AppInventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Proyectos\\AppInventario\\wwwroot\\",
+      "BasePath": "_content/AppInventario",
+      "RelativePath": "imagenes/icono.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\icono.png"
     },
     {
       "Identity": "E:\\Proyectos\\AppInventario\\wwwroot\\imagenes\\producto\\27d7a214-13f7-437c-82c5-a646d5d095a7.jpg",

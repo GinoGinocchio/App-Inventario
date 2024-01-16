@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\Proyectos\\AppInventario\\wwwroot\\imagenes\\icono.ico",
+      "PackagePath": "staticwebassets\\imagenes\\icono.ico"
+    },
+    {
+      "Id": "E:\\Proyectos\\AppInventario\\wwwroot\\imagenes\\icono.png",
+      "PackagePath": "staticwebassets\\imagenes\\icono.png"
+    },
+    {
       "Id": "E:\\Proyectos\\AppInventario\\wwwroot\\imagenes\\producto\\27d7a214-13f7-437c-82c5-a646d5d095a7.jpg",
       "PackagePath": "staticwebassets\\imagenes\\producto\\27d7a214-13f7-437c-82c5-a646d5d095a7.jpg"
     },
