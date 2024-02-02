@@ -1,5 +1,6 @@
 ﻿using AppInventario.AccesoDatos.Repositorio.IRepositorio;
 using AppInventario.Modelos;
+using AppInventario.Modelos.Especificaciones;
 using AppInventario.Modelos.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
@@ -17,10 +18,46 @@ namespace AppInventario.Areas.Inventario.Controllers
             _unidadTrabajo = unidadTrabajo;
         }
 
-        public async Task<IActionResult> Index()
+        public IActionResult Index(int pageNumber = 1, string busqueda ="", string busquedaActual = "")
         {
-            IEnumerable<Producto> productolista = await _unidadTrabajo.Producto.ObtenerTodos();
-            return View(productolista);
+            if (!string.IsNullOrEmpty(busqueda))
+            {
+                pageNumber = 1;
+            }
+            else
+            {
+                busqueda = busquedaActual;   
+            }
+            ViewData["BusquedaActual"] = busqueda;
+
+            if (pageNumber < 1) pageNumber = 1;
+
+            Parametros parametros = new Parametros
+            {
+                PageNumber = pageNumber,
+                PageSize = 4
+            };
+
+            var resultado = _unidadTrabajo.Producto.ObtenerTodosPaginado(parametros);
+
+            if (!string.IsNullOrEmpty(busqueda))
+            {
+                resultado = _unidadTrabajo.Producto.ObtenerTodosPaginado(parametros, x => x.Descripcion.Contains(busqueda));
+            }
+
+            ViewData["TotalPaginas"] = resultado.metaData.TotalPages;
+            ViewData["TotalRegistros"] = resultado.metaData.TotalCount;
+            ViewData["PageSize"] = resultado.metaData.PageSize;
+            ViewData["PageNumber"] = pageNumber;
+
+            //Clase css para desactivar boton
+            ViewData["Previo"] = "disabled";
+
+            ViewData["Siguiente"] = "";
+            if (pageNumber > 1) ViewData["Previo"] = "";
+            if (resultado.metaData.TotalPages <= pageNumber) ViewData["Siguiente"] = "disabled";
+
+            return View(resultado);
         }
 
         public IActionResult Privacy()
